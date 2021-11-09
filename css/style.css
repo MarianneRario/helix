@@ -1,0 +1,126 @@
+.bg {
+  background: url("../images/background.png") no-repeat;
+  width: 100%;
+  height: 120vh;
+  background-size: 100%;
+}
+
+.form-container {
+  position: relative;
+  top: 5vh;
+  background: #ffffffd5;
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  bottom: 50vh;
+}
+.form-container h4 {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.login-form {
+  position: relative;
+  top: 10vh;
+  background: #ffffffd5;
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.title {
+  position: relative;
+  top: 8vh;
+  text-align: center;
+  color: #ffffff;
+}
+
+.error {
+  width: 96%;
+  line-height: 1;
+  background: #f2dede;
+  padding: 10px;
+  padding-bottom: 1px;
+  margin: auto;
+  border: 1px solid #a94442;
+  color: #a94442;
+  border-radius: 5px;
+}
+
+.form-group {
+  width: 100%;
+  height: 35px;
+}
+
+.quiz-result {
+  position: relative;
+  top: 5vh;
+  background: #ffffffd5;
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px 0px #000000;
+  bottom: 50vh;
+}
+
+.quiz-result h3 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #42a94b;
+}
+
+.quiz-result h4 {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #2e968d;
+}
+
+.quiz-result h5 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #962e48;
+}
+
+.success-delete {
+  position: relative;
+  top: 5vh;
+  background: #ffffffd5;
+  padding: 30px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px 0px #000000;
+  bottom: 50vh;
+}
+
+.success-delete h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #42a94b;
+}
+.success-delete h5 {
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+}
+
+.carousel-control-prev {
+  left: 5%;
+}
+
+.carousel-control-next {
+  right: 5%;
+}
